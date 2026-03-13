@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geo-anom"
+version = "0.1.0"
+description = "Geospatial AI for AFO Mapping and Spatially-Explicit Nutrient Transfer Optimization (Maryland)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "GEO-ANOM Team"}
+]
+
+dependencies = [
+    # Core geospatial
+    "rasterio>=1.3",
+    "geopandas>=0.14",
+    "shapely>=2.0",
+    "pyproj>=3.6",
+    "fiona>=1.9",
+    # Configuration
+    "pyyaml>=6.0",
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "python-dotenv>=1.0",
+    # Data
+    "requests>=2.31",
+    "pandas>=2.1",
+    "tqdm>=4.66",
+    # Phase 2 - Detection & Segmentation
+    "ultralytics>=8.1",
+    "torch>=2.1",
+    "torchvision>=0.16",
+    # SAM2: install from GitHub → pip install git+https://github.com/facebookresearch/sam2.git
+    # Phase 2 - AlphaEarth
+    "earthengine-api>=0.1.380",
+    # Phase 3
+    "rasterstats>=0.19",
+    "scipy>=1.11",
+    # Phase 4
+    "pulp>=2.7",
+    # Utilities
+    "numpy>=1.25",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "responses>=0.24",
+    "ruff>=0.1",
+]
+gpu = [
+    # Install SAM2 separately: pip install git+https://github.com/facebookresearch/sam2.git
+]
+
+[tool.setuptools.packages.find]
+include = ["geo_anom*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"

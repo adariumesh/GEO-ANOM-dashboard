@@ -1,0 +1,188 @@
+# =============================================================================
+# GEO-ANOM: Maryland-Specific Configuration
+# =============================================================================
+
+# --- State Identifiers ---
+state:
+  name: "Maryland"
+  fips: "24"
+  # Eastern Shore counties (primary study area)
+  eastern_shore_counties:
+    - { name: "Dorchester",  fips: "24019" }
+    - { name: "Caroline",    fips: "24011" }
+    - { name: "Talbot",      fips: "24041" }
+    - { name: "Queen Anne's", fips: "24035" }
+    - { name: "Kent",        fips: "24029" }
+    - { name: "Cecil",       fips: "24015" }
+    - { name: "Wicomico",    fips: "24045" }
+    - { name: "Worcester",   fips: "24047" }
+    - { name: "Somerset",    fips: "24039" }
+
+  # Bounding box for Maryland Eastern Shore [west, south, east, north]
+  eastern_shore_bbox: [-76.50, 37.91, -75.04, 39.72]
+
+# --- Data Source Endpoints ---
+endpoints:
+  # MD iMAP NAIP ImageServer (1m, 4-band RGBN)
+  naip_image_server: "https://mdgeodata.md.gov/imagery/rest/services/NAIP/MD_NAIPImagery/ImageServer"
+
+  # MDE AFO Public Registry (Socrata Open Data)
+  afo_registry_csv: "https://opendata.maryland.gov/api/views/s4e3-7tuu/rows.csv?accessType=DOWNLOAD"
+  afo_registry_json: "https://opendata.maryland.gov/resource/s4e3-7tuu.json"
+
+  # USDA CropScape CDL (Web Coverage Service)
+  cdl_wcs: "https://nassgeodata.gmu.edu/axis2/services/CDLService/GetCDLFile"
+  cdl_stats: "https://nassgeodata.gmu.edu/axis2/services/CDLService/GetCDLStat"
+
+# --- NAIP Tile Settings ---
+naip:
+  resolution_m: 1
+  tile_size_px: 1024  # 1024x1024 px = ~1km x 1km at 1m res
+  format: "tiff"
+  bands: ["R", "G", "B", "NIR"]
+  # Max concurrent downloads (be polite to state servers)
+  max_workers: 4
+  request_delay_s: 1.0
+
+# --- YOLOv8 Detection ---
+yolo:
+  # Classes following PRISM-CAFO taxonomy
+  classes:
+    - "poultry_house"
+    - "barn"
+    - "manure_lagoon"
+    - "feedlot"
+    - "silo"
+  confidence_threshold: 0.25
+  iou_threshold: 0.45
+  image_size: 1024
+  # Path to fine-tuned weights (relative to project root)
+  weights_path: "data/models/yolov8_afo_best.pt"
+  # Fallback to pretrained base model
+  base_model: "yolov8n.pt"
+
+# --- SAM2 Segmentation ---
+sam:
+  model_type: "sam2_hiera_large"
+  # Minimum mask area in pixels to keep (filter noise)
+  min_mask_area_px: 100
+  # Polygon simplification tolerance (meters)
+  simplify_tolerance_m: 2.0
+
+# --- AlphaEarth Embeddings ---
+alphaearth:
+  collection_id: "GOOGLE/SATELLITE_EMBEDDING/V1/ANNUAL"
+  embedding_dim: 64
+  default_year: 2024
+  # Cosine similarity threshold for AFO classification
+  similarity_threshold: 0.70
+  # Scale for Earth Engine sampling (meters)
+  sample_scale: 10
+
+# --- Nutrient Coefficients ---
+# Annual nutrient generation per animal unit (USDA NRCS Table 11-1)
+# Values in lbs/year per animal
+nutrient_coefficients:
+  broiler_chicken:
+    N_lbs_per_head_per_year: 0.91
+    P2O5_lbs_per_head_per_year: 0.63
+    flocks_per_year: 6.5  # avg production cycles
+  layer_chicken:
+    N_lbs_per_head_per_year: 1.08
+    P2O5_lbs_per_head_per_year: 0.86
+    flocks_per_year: 1
+  turkey:
+    N_lbs_per_head_per_year: 2.40
+    P2O5_lbs_per_head_per_year: 1.80
+    flocks_per_year: 3
+  dairy_cattle:
+    N_lbs_per_head_per_year: 168.0
+    P2O5_lbs_per_head_per_year: 96.0
+    flocks_per_year: 1
+  beef_cattle:
+    N_lbs_per_head_per_year: 125.0
+    P2O5_lbs_per_head_per_year: 87.0
+    flocks_per_year: 1
+  swine:
+    N_lbs_per_head_per_year: 24.0
+    P2O5_lbs_per_head_per_year: 18.0
+    flocks_per_year: 1
+
+# --- Crop Nutrient Demand ---
+# Annual crop nutrient uptake (lbs per acre)
+# Source: Mid-Atlantic Nutrient Management Handbook
+crop_nutrient_demand:
+  corn:          { cdl_code: 1,  N_lbs_per_acre: 150, P2O5_lbs_per_acre: 60 }
+  soybeans:      { cdl_code: 5,  N_lbs_per_acre: 0,   P2O5_lbs_per_acre: 45 }
+  winter_wheat:  { cdl_code: 24, N_lbs_per_acre: 90,  P2O5_lbs_per_acre: 40 }
+  barley:        { cdl_code: 21, N_lbs_per_acre: 80,  P2O5_lbs_per_acre: 35 }
+  sorghum:       { cdl_code: 4,  N_lbs_per_acre: 100, P2O5_lbs_per_acre: 40 }
+  alfalfa:       { cdl_code: 36, N_lbs_per_acre: 0,   P2O5_lbs_per_acre: 50 }
+  other_hay:     { cdl_code: 37, N_lbs_per_acre: 60,  P2O5_lbs_per_acre: 30 }
+  vegetables:    { cdl_code: 42, N_lbs_per_acre: 120, P2O5_lbs_per_acre: 80 }
+
+# --- Environmental Setbacks ---
+# MDA "Nutrient Management Setbacks From Waterways"
+setbacks:
+  buffer_10ft_m: 3.048  # 10 feet in meters
+  buffer_35ft_m: 10.668  # 35 feet in meters
+
+# --- AFO Targeting ---
+afo_targeting:
+  # Buffer radius around each AFO for NAIP tile download (km)
+  buffer_km: 2.0
+  # Only download tiles for these permit statuses
+  active_statuses: ["Registered", "Pending", "Notice of Preliminary Approval", "Issued", "Administratively Extended"]
+
+# =============================================================================
+# CLOUD CONFIGURATION
+# =============================================================================
+
+# --- Google Cloud Storage ---
+cloud:
+  # Leave blank to run entirely local (no GCS required)
+  gcs_bucket: ""                      # e.g. "geo-anom-maryland"
+  gcs_project_id: ""                  # GCP project ID
+  # GCS key prefixes (paths within the bucket)
+  naip_tiles_prefix: "naip_tiles/"
+  processed_prefix: "processed/"
+  models_prefix: "models/"
+  # Vertex AI (for future fine-tuning)
+  vertex_ai_region: "us-east1"
+  vertex_ai_staging_bucket: ""        # gs://your-bucket/staging/
+  vertex_ai_machine_type: "n1-standard-8"
+  vertex_ai_accelerator: "NVIDIA_TESLA_T4"
+  vertex_ai_accelerator_count: 1
+
+# =============================================================================
+# YOLO-WORLD: ZERO-SHOT OPEN-VOCABULARY DETECTION
+# (no fine-tuning required — uses text prompts at inference time)
+# =============================================================================
+
+yolo_world:
+  # Model: yolov8x-worldv2 = best accuracy; yolov8s-worldv2 = fastest
+  model: "yolov8x-worldv2.pt"
+  # Text prompts — YOLO-World detects these class descriptions from imagery
+  text_prompts:
+    - "poultry house"
+    - "chicken barn"
+    - "manure lagoon"
+    - "feedlot"
+    - "grain silo"
+    - "agricultural pond"     # will be filtered by AlphaEarth as non-AFO
+  # Detection thresholds (lower than standard YOLO since zero-shot is less confident)
+  confidence_threshold: 0.01
+  iou_threshold: 0.40
+  image_size: 1024
+  # GCS/local path to store auto-downloaded weights
+  weights_dir: "models/"
+
+# --- Census Batch Geocoding ---
+geocoding:
+  # US Census Bureau Batch Geocoder (free, no API key required)
+  census_batch_url: "https://geocoding.geo.census.gov/geocoder/locations/addressbatch"
+  census_benchmark: "Public_AR_Current"
+  # Max addresses per batch (Census limit = 10,000)
+  batch_size: 9999
+  # Request timeout in seconds
+  timeout_s: 120
