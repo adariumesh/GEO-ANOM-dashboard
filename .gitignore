@@ -1,8 +1,14 @@
 # Data directories (large files)
-data/
+data/raw/
+data/processed/*.gpkg
 *.tif
 *.tiff
-*.gpkg
+
+# BUT keep essential processed data for dashboard
+!data/processed/scenarios/
+!data/processed/*.csv
+!data/processed/*.txt
+!data/processed/*.md
 
 # Python
 __pycache__/
