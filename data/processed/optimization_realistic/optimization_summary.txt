@@ -1,0 +1,15 @@
+GEO-ANOM Realistic Optimization Summary
+======================================================================
+
+Region: eastern-shore
+AFOs Analyzed: 420
+Hub Sites: 12
+Max Capacity per Hub: 5,000,000 animals
+
+Economic Results:
+  annual_transport_cost: 5,458,999.36
+  total_construction_cost: 24,000,000.00
+  total_cost_5yr: 51,294,996.81
+  cost_per_animal_per_year: 0.13
+  total_truckloads_per_year: 2,183,599.74
+  avg_distance_km: 25.49

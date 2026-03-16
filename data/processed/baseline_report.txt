@@ -1,0 +1,177 @@
+======================================================================
+GEO-ANOM BASELINE REPORT
+======================================================================
+
+Generated: 2026-03-09 09:27:11
+
+Data as of: Day 1 Analysis
+
+
+======================================================================
+DATA QUALITY
+======================================================================
+
+Total AFO Records: 442
+With Valid Coordinates: 350 (79.2%)
+Missing Coordinates: 92
+With Headcount Data: 430
+Total Animals: 56,372,686
+
+
+ANIMAL TYPE DISTRIBUTION
+----------------------------------------------------------------------
+chickens_not_laying_hens      :  402 AFOs,   52,726,822 animals ( 93.5%)
+laying_hens_dry_manure        :    6 AFOs,    3,545,782 animals (  6.3%)
+turkeys                       :    2 AFOs,       66,000 animals (  0.1%)
+dairy_cattle                  :   14 AFOs,       16,660 animals (  0.0%)
+ducks_liquid_manure           :    1 AFOs,        9,800 animals (  0.0%)
+
+
+GEOGRAPHIC DISTRIBUTION (Top 10 Counties)
+----------------------------------------------------------------------
+Worcester           :   79 AFOs,   12,449,320 animals ( 22.1%)
+Wicomico            :   89 AFOs,   10,272,900 animals ( 18.2%)
+Caroline            :   95 AFOs,    9,963,625 animals ( 17.7%)
+Somerset            :   66 AFOs,    8,307,000 animals ( 14.7%)
+Queen Anne's        :   37 AFOs,    5,353,875 animals (  9.5%)
+Dorchester          :   33 AFOs,    4,536,200 animals (  8.0%)
+Cecil               :    4 AFOs,    2,315,238 animals (  4.1%)
+Kent                :   15 AFOs,    2,132,220 animals (  3.8%)
+Talbot              :    6 AFOs,      486,700 animals (  0.9%)
+Carroll             :    6 AFOs,      454,105 animals (  0.8%)
+
+
+FACILITY SIZE DISTRIBUTION
+----------------------------------------------------------------------
+<1K            :   10 facilities (  2.3%)
+1K-10K         :   10 facilities (  2.3%)
+10K-100K       :  189 facilities ( 42.8%)
+100K-1M        :  220 facilities ( 49.8%)
+>1M            :    1 facilities (  0.2%)
+
+
+======================================================================
+OPTIMIZATION RESULTS
+======================================================================
+
+Hub Configuration: 12 regional digesters
+AFOs Assigned: 334
+Total Animals Processed: 41,180,619
+
+
+HUB DETAILS
+----------------------------------------------------------------------
+
+Hub 0:
+  Location: Wicomico County
+  Coordinates: 38.4553°N, -75.6951°W
+  AFOs Assigned: 16
+  Total Animals: 1,653,800
+  Capacity Used: 33.1%
+
+Hub 1:
+  Location: Queen Anne's County
+  Coordinates: 39.1670°N, -75.9323°W
+  AFOs Assigned: 36
+  Total Animals: 4,200,154
+  Capacity Used: 84.0%
+
+Hub 2:
+  Location: Caroline County
+  Coordinates: 38.7581°N, -75.8062°W
+  AFOs Assigned: 44
+  Total Animals: 4,973,100
+  Capacity Used: 99.5%
+
+Hub 3:
+  Location: Somerset County
+  Coordinates: 38.2217°N, -75.6851°W
+  AFOs Assigned: 26
+  Total Animals: 3,051,600
+  Capacity Used: 61.0%
+
+Hub 4:
+  Location: Worcester County
+  Coordinates: 38.3642°N, -75.2549°W
+  AFOs Assigned: 25
+  Total Animals: 3,404,100
+  Capacity Used: 68.1%
+
+Hub 5:
+  Location: Somerset County
+  Coordinates: 38.0415°N, -75.7461°W
+  AFOs Assigned: 18
+  Total Animals: 1,998,400
+  Capacity Used: 40.0%
+
+Hub 6:
+  Location: Worcester County
+  Coordinates: 38.0944°N, -75.4128°W
+  AFOs Assigned: 17
+  Total Animals: 2,953,000
+  Capacity Used: 59.1%
+
+Hub 7:
+  Location: Dorchester County
+  Coordinates: 38.5615°N, -75.9106°W
+  AFOs Assigned: 26
+  Total Animals: 2,872,700
+  Capacity Used: 57.5%
+
+Hub 8:
+  Location: Somerset County
+  Coordinates: 38.1494°N, -75.5993°W
+  AFOs Assigned: 20
+  Total Animals: 3,201,500
+  Capacity Used: 64.0%
+
+Hub 9:
+  Location: Caroline County
+  Coordinates: 38.9208°N, -75.8997°W
+  AFOs Assigned: 40
+  Total Animals: 4,209,865
+  Capacity Used: 84.2%
+
+Hub 10:
+  Location: Worcester County
+  Coordinates: 38.0156°N, -75.5483°W
+  AFOs Assigned: 24
+  Total Animals: 3,710,300
+  Capacity Used: 74.2%
+
+Hub 11:
+  Location: Wicomico County
+  Coordinates: 38.4040°N, -75.4316°W
+  AFOs Assigned: 42
+  Total Animals: 4,952,100
+  Capacity Used: 99.0%
+
+
+======================================================================
+KEY FINDINGS
+======================================================================
+
+1. Maryland has 442 registered AFOs managing 56,372,686 animals
+
+2. 95.0% of AFOs are concentrated on the Eastern Shore
+
+3. 93.5% of total animals are chickens (poultry industry)
+
+4. 221 facilities (50.0%) have >100K animals (industrial scale)
+
+5. Optimization shows 12 regional hubs can serve 334 AFOs effectively
+
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+Day 2: Test different hub count scenarios (8, 10, 12, 15)
+Day 3: Generate county-level detailed reports
+Day 4: Economic sensitivity analysis
+Day 5: Executive summary and recommendations
+
+
+======================================================================
+END OF BASELINE REPORT
+======================================================================

@@ -1,0 +1,40 @@
+================================================================================
+ECONOMIC SENSITIVITY ANALYSIS SUMMARY
+================================================================================
+
+BASE SCENARIO (10 hubs):
+  Construction: $20.0M
+  Annual Transport: $6.0M
+  Annual Revenue: $38.4M
+  5-Year NPV: $141.7M
+  Payback: 0.6 years
+
+KEY FINDINGS:
+
+1. Transport Cost Impact:
+   - $1.50/km: 5-yr cost = $38.1M
+   - $2.50/km: 5-yr cost = $50.2M (base)
+   - $4.00/km: 5-yr cost = $68.3M
+   - Sensitivity: $30.2M swing
+
+2. Construction Cost Impact:
+   - $1.5M/hub: Total = $45.2M
+   - $2.0M/hub: Total = $50.2M (base)
+   - $3.0M/hub: Total = $60.2M
+
+3. Revenue Sensitivity:
+   - Low scenario: $25.6M/year
+   - Base scenario: $38.4M/year
+   - High scenario: $60.8M/year
+
+4. Hub Count Comparison:
+   - 8 hubs: NPV = $132.5M, Payback = 0.5 years
+   - 10 hubs: NPV = $141.7M, Payback = 0.6 years
+   - 15 hubs: NPV = $138.2M, Payback = 0.9 years
+
+RECOMMENDATION:
+  10 hubs remains optimal even with revenue included.
+  Positive NPV of $141.7M over 5 years.
+  Project is economically viable under base assumptions.
+
+================================================================================

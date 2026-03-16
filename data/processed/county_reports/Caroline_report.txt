@@ -1,0 +1,64 @@
+================================================================================
+CAROLINE COUNTY - AFO ANALYSIS
+================================================================================
+
+📊 SUMMARY
+--------------------------------------------------------------------------------
+Total AFOs: 95
+Total Animals: 9,963,625
+Percentage of State Total: 17.7%
+Average Animals per AFO: 104,880
+
+🐔 ANIMAL TYPE DISTRIBUTION
+--------------------------------------------------------------------------------
+chickens_not_laying_hens      :  90 AFOs,    9,958,760 animals (100.0%)
+cattle_includes_heifers       :   1 AFOs,        3,400 animals (  0.0%)
+dairy_cattle                  :   1 AFOs,        1,465 animals (  0.0%)
+unknown                       :   3 AFOs,            0 animals (  0.0%)
+
+📏 FACILITY SIZE DISTRIBUTION
+--------------------------------------------------------------------------------
+<1K            :   0 facilities (  0.0%)
+1K-10K         :   2 facilities (  2.1%)
+10K-100K       :  51 facilities ( 53.7%)
+100K-1M        :  39 facilities ( 41.1%)
+>1M            :   0 facilities (  0.0%)
+
+🏭 TOP 10 LARGEST FACILITIES
+--------------------------------------------------------------------------------
+Christopher Both                                        315,000 chickens_not_laying_hens
+William James Robinette/Way More Farm (New Constru      263,400 chickens_not_laying_hens
+Jacob Thomas                                            257,400 chickens_not_laying_hens
+Sansi & Virk LLC c/o Rizwan Zafar                       254,700 chickens_not_laying_hens
+Gujrat Farms LLC                                        248,000 chickens_not_laying_hens
+M. David Wood, Jr./Wood Enterprise and Wood Encoun      245,600 chickens_not_laying_hens
+Beyla Farm, LLC                                         240,000 chickens_not_laying_hens
+Fraizer Rhode, LLC                                      228,960 chickens_not_laying_hens
+Tuckahoe River Farm Poultry LLC c/o Troy Tribbett       222,600 chickens_not_laying_hens
+M. David Wood, Jr./Woodhaven and Wood Inspired          222,600 chickens_not_laying_hens
+
+🏗️ HUB ASSIGNMENTS (10-Hub Solution)
+--------------------------------------------------------------------------------
+Hub  6:  39 AFOs,    4,087,400 animals ( 41.0%)
+Hub  0:  28 AFOs,    2,931,165 animals ( 29.4%)
+Hub  7:   3 AFOs,      282,200 animals (  2.8%)
+Hub  5:   5 AFOs,      215,000 animals (  2.2%)
+
+⭐ PRIORITY ASSESSMENT
+--------------------------------------------------------------------------------
+Priority Level: HIGH
+Reason: High AFO density and large animal population
+AFO Density Score: 0.9
+Volume Score: 1.0
+Industrial Facilities: 41%
+
+💡 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Excellent candidate for pilot digester program
+• Consider 2-3 hubs within county boundaries
+• High potential for economies of scale
+• Engage with top 10 facilities for partnership
+
+================================================================================
+END OF CAROLINE COUNTY REPORT
+================================================================================

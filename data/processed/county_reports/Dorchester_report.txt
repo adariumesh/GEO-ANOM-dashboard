@@ -1,0 +1,59 @@
+================================================================================
+DORCHESTER COUNTY - AFO ANALYSIS
+================================================================================
+
+📊 SUMMARY
+--------------------------------------------------------------------------------
+Total AFOs: 33
+Total Animals: 4,536,200
+Percentage of State Total: 8.0%
+Average Animals per AFO: 137,461
+
+🐔 ANIMAL TYPE DISTRIBUTION
+--------------------------------------------------------------------------------
+chickens_not_laying_hens      :  33 AFOs,    4,536,200 animals (100.0%)
+
+📏 FACILITY SIZE DISTRIBUTION
+--------------------------------------------------------------------------------
+<1K            :   0 facilities (  0.0%)
+1K-10K         :   0 facilities (  0.0%)
+10K-100K       :  11 facilities ( 33.3%)
+100K-1M        :  22 facilities ( 66.7%)
+>1M            :   0 facilities (  0.0%)
+
+🏭 TOP 10 LARGEST FACILITIES
+--------------------------------------------------------------------------------
+Waqar Ahmed /Emaan and Eshal Farm LLC (New Constru      352,000 chickens_not_laying_hens
+Justin Murphy/Murphy's Crusting & Uniloader Servic      320,000 chickens_not_laying_hens
+Jabar Rahim                                             297,000 chickens_not_laying_hens
+David Phan                                              230,000 chickens_not_laying_hens
+Ishtiaq Ahmed ChaudhryGhousia Farm LLC                  219,000 chickens_not_laying_hens
+Brian Harding                                           207,600 chickens_not_laying_hens
+Chesapeake Chickens, LLC/Andrew Harrington              183,000 chickens_not_laying_hens
+Roland Todd/Roland's Roaster's                          159,900 chickens_not_laying_hens
+Shoaib & Zuhaib Farms LLC                               152,000 chickens_not_laying_hens
+Za Thang LLC                                            150,000 chickens_not_laying_hens
+
+🏗️ HUB ASSIGNMENTS (10-Hub Solution)
+--------------------------------------------------------------------------------
+Hub  5:  22 AFOs,    2,801,700 animals ( 61.8%)
+Hub  6:   5 AFOs,      894,300 animals ( 19.7%)
+
+⭐ PRIORITY ASSESSMENT
+--------------------------------------------------------------------------------
+Priority Level: HIGH
+Reason: High AFO density and large animal population
+AFO Density Score: 0.3
+Volume Score: 0.5
+Industrial Facilities: 67%
+
+💡 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Excellent candidate for pilot digester program
+• Consider 2-3 hubs within county boundaries
+• High potential for economies of scale
+• Engage with top 10 facilities for partnership
+
+================================================================================
+END OF DORCHESTER COUNTY REPORT
+================================================================================

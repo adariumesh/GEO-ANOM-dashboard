@@ -1,0 +1,60 @@
+================================================================================
+KENT COUNTY - AFO ANALYSIS
+================================================================================
+
+📊 SUMMARY
+--------------------------------------------------------------------------------
+Total AFOs: 15
+Total Animals: 2,132,220
+Percentage of State Total: 3.8%
+Average Animals per AFO: 142,148
+
+🐔 ANIMAL TYPE DISTRIBUTION
+--------------------------------------------------------------------------------
+chickens_not_laying_hens      :   8 AFOs,    1,095,167 animals ( 51.4%)
+laying_hens_dry_manure        :   2 AFOs,    1,029,024 animals ( 48.3%)
+dairy_cattle                  :   4 AFOs,        5,574 animals (  0.3%)
+swine_55_lbs                  :   1 AFOs,        2,455 animals (  0.1%)
+
+📏 FACILITY SIZE DISTRIBUTION
+--------------------------------------------------------------------------------
+<1K            :   2 facilities ( 13.3%)
+1K-10K         :   3 facilities ( 20.0%)
+10K-100K       :   4 facilities ( 26.7%)
+100K-1M        :   6 facilities ( 40.0%)
+>1M            :   0 facilities (  0.0%)
+
+🏭 TOP 10 LARGEST FACILITIES
+--------------------------------------------------------------------------------
+Cal-Maine Foods, Inc.- Layers                           676,512 laying_hens_dry_manure
+Cal-Maine Foods, LLC Pullets                            352,512 laying_hens_dry_manure
+Zachary Loller/William Loller Farm, LLC                 270,000 chickens_not_laying_hens
+Jeffrey Pettitt/Krastel Farm                            216,000 chickens_not_laying_hens
+Rich Levels Poultry, Inc.                               191,667 chickens_not_laying_hens
+Eric Pardee                                             169,000 chickens_not_laying_hens
+W. Frank Barnes, Jr./Fairfield Farm                      88,000 chickens_not_laying_hens
+Stephen L. Stoltzfus                                     75,000 chickens_not_laying_hens
+Leland R. Troyer/Troyer Farm                             43,000 chickens_not_laying_hens
+Charles Nau, Jr.                                         42,500 chickens_not_laying_hens
+
+🏗️ HUB ASSIGNMENTS (10-Hub Solution)
+--------------------------------------------------------------------------------
+Hub  7:  10 AFOs,      867,479 animals ( 40.7%)
+
+⭐ PRIORITY ASSESSMENT
+--------------------------------------------------------------------------------
+Priority Level: MEDIUM
+Reason: Significant AFO presence
+AFO Density Score: 0.1
+Volume Score: 0.2
+Industrial Facilities: 40%
+
+💡 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Good candidate for regional hub serving multiple counties
+• Consider shared infrastructure with neighboring counties
+• Focus on largest facilities first
+
+================================================================================
+END OF KENT COUNTY REPORT
+================================================================================

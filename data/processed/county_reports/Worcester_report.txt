@@ -1,0 +1,64 @@
+================================================================================
+WORCESTER COUNTY - AFO ANALYSIS
+================================================================================
+
+📊 SUMMARY
+--------------------------------------------------------------------------------
+Total AFOs: 79
+Total Animals: 12,449,320
+Percentage of State Total: 22.1%
+Average Animals per AFO: 157,586
+
+🐔 ANIMAL TYPE DISTRIBUTION
+--------------------------------------------------------------------------------
+chickens_not_laying_hens      :  77 AFOs,   12,387,820 animals ( 99.5%)
+laying_hens_dry_manure        :   1 AFOs,       61,500 animals (  0.5%)
+unknown                       :   1 AFOs,            0 animals (  0.0%)
+
+📏 FACILITY SIZE DISTRIBUTION
+--------------------------------------------------------------------------------
+<1K            :   0 facilities (  0.0%)
+1K-10K         :   0 facilities (  0.0%)
+10K-100K       :  27 facilities ( 34.2%)
+100K-1M        :  51 facilities ( 64.6%)
+>1M            :   0 facilities (  0.0%)
+
+🏭 TOP 10 LARGEST FACILITIES
+--------------------------------------------------------------------------------
+Minh Vinh                                               595,000 chickens_not_laying_hens
+Pebble Branch Farm LLC/John P. Kelly                    400,000 chickens_not_laying_hens
+Newton Bui/Vina Cao                                     354,500 chickens_not_laying_hens
+Jason Lambertson/Amen Corner/Pure Country/Millenni      346,000 chickens_not_laying_hens
+Chinh Nguyen/A, B, C Farms                              333,000 chickens_not_laying_hens
+Ishfaq Ahmed/APNA Farms, LLC (New Construction)         328,000 chickens_not_laying_hens
+Minh Vinh                                               308,800 chickens_not_laying_hens
+Cedar Livesstock Farm LLC                               290,400 chickens_not_laying_hens
+Willis E. Redden Farm                                   272,000 chickens_not_laying_hens
+Sam's Farm, Incorporated                                257,000 chickens_not_laying_hens
+
+🏗️ HUB ASSIGNMENTS (10-Hub Solution)
+--------------------------------------------------------------------------------
+Hub  4:  21 AFOs,    3,734,900 animals ( 30.0%)
+Hub  8:  22 AFOs,    3,697,400 animals ( 29.7%)
+Hub  2:  20 AFOs,    2,991,100 animals ( 24.0%)
+Hub  1:   1 AFOs,       75,000 animals (  0.6%)
+Hub  9:   1 AFOs,       42,000 animals (  0.3%)
+
+⭐ PRIORITY ASSESSMENT
+--------------------------------------------------------------------------------
+Priority Level: HIGH
+Reason: High AFO density and large animal population
+AFO Density Score: 0.8
+Volume Score: 1.2
+Industrial Facilities: 65%
+
+💡 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Excellent candidate for pilot digester program
+• Consider 2-3 hubs within county boundaries
+• High potential for economies of scale
+• Engage with top 10 facilities for partnership
+
+================================================================================
+END OF WORCESTER COUNTY REPORT
+================================================================================

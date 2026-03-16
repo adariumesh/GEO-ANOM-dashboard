@@ -1,0 +1,13 @@
+GEO-ANOM Scenario Analysis Recommendation
+======================================================================
+
+OPTIMAL SOLUTION: 10 regional digester hubs
+
+Key Metrics:
+  • AFOs Served: 334
+  • Animals Processed: 41.2M
+  • Construction Cost: $20.0M
+  • Annual Transport: $6.0M
+  • 5-Year Total: $50.2M
+  • Average Distance: 28.2 km
+  • Cost per Animal: $0.15/year

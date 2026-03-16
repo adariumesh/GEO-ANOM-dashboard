@@ -1,0 +1,31 @@
+================================================================================
+MARYLAND AFO COUNTY ANALYSIS
+Top 10 Counties by Animal Population
+================================================================================
+
+      County  AFOs  Animals  Pct_of_State   Avg_per_AFO  Industrial_Facilities
+   Worcester    79 12449320     22.083957 157586.329114                     51
+    Wicomico    89 10272900     18.223187 115425.842697                     40
+    Caroline    95  9963625     17.674561 104880.263158                     39
+    Somerset    66  8307000     14.735860 125863.636364                     37
+Queen Anne's    37  5353875      9.497286 144699.324324                     22
+  Dorchester    33  4536200      8.046805 137460.606061                     22
+       Cecil     4  2315238      4.107021 578809.500000                      2
+        Kent    15  2132220      3.782364 142148.000000                      6
+      Talbot     6   486700      0.863361  81116.666667                      1
+     Carroll     6   454105      0.805541  75684.166667                      1
+
+
+Detailed reports available in: /Users/adariprasad/weapon/Helmets Kenya/GEO-AI/data/processed/county_reports
+
+Individual county reports:
+  • Worcester_report.txt
+  • Wicomico_report.txt
+  • Caroline_report.txt
+  • Somerset_report.txt
+  • Queen_Anne's_report.txt
+  • Dorchester_report.txt
+  • Cecil_report.txt
+  • Kent_report.txt
+  • Talbot_report.txt
+  • Carroll_report.txt

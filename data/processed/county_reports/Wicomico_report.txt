@@ -1,0 +1,62 @@
+================================================================================
+WICOMICO COUNTY - AFO ANALYSIS
+================================================================================
+
+📊 SUMMARY
+--------------------------------------------------------------------------------
+Total AFOs: 89
+Total Animals: 10,272,900
+Percentage of State Total: 18.2%
+Average Animals per AFO: 115,426
+
+🐔 ANIMAL TYPE DISTRIBUTION
+--------------------------------------------------------------------------------
+chickens_not_laying_hens      :  85 AFOs,   10,272,900 animals (100.0%)
+unknown                       :   4 AFOs,            0 animals (  0.0%)
+
+📏 FACILITY SIZE DISTRIBUTION
+--------------------------------------------------------------------------------
+<1K            :   0 facilities (  0.0%)
+1K-10K         :   0 facilities (  0.0%)
+10K-100K       :  45 facilities ( 50.6%)
+100K-1M        :  40 facilities ( 44.9%)
+>1M            :   0 facilities (  0.0%)
+
+🏭 TOP 10 LARGEST FACILITIES
+--------------------------------------------------------------------------------
+Ernest Adkins Jr./Viola's Acres                         400,000 chickens_not_laying_hens
+Cam Tu Pham/P&N Farm, LLC                               304,000 chickens_not_laying_hens
+Thu Huynh                                               300,000 chickens_not_laying_hens
+Ideal Farm, Inc./Choudhry Asif                          285,000 chickens_not_laying_hens
+INJA LLC/Iftikhar Farooqui                              280,000 chickens_not_laying_hens
+Al Barkat Farms LLC                                     262,400 chickens_not_laying_hens
+Ariann Le/Phat Chix Farm                                260,000 chickens_not_laying_hens
+Long Pham/Megan Farm                                    256,000 chickens_not_laying_hens
+Nhan Cao Dang                                           240,000 chickens_not_laying_hens
+Mark Nguyen/Mark & Jayden Farm                          239,000 chickens_not_laying_hens
+
+🏗️ HUB ASSIGNMENTS (10-Hub Solution)
+--------------------------------------------------------------------------------
+Hub  9:  41 AFOs,    4,910,100 animals ( 47.8%)
+Hub  1:  22 AFOs,    2,388,900 animals ( 23.3%)
+Hub  2:   5 AFOs,      413,000 animals (  4.0%)
+Hub  3:   1 AFOs,      183,000 animals (  1.8%)
+
+⭐ PRIORITY ASSESSMENT
+--------------------------------------------------------------------------------
+Priority Level: HIGH
+Reason: High AFO density and large animal population
+AFO Density Score: 0.9
+Volume Score: 1.0
+Industrial Facilities: 45%
+
+💡 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Excellent candidate for pilot digester program
+• Consider 2-3 hubs within county boundaries
+• High potential for economies of scale
+• Engage with top 10 facilities for partnership
+
+================================================================================
+END OF WICOMICO COUNTY REPORT
+================================================================================

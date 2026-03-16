@@ -1,0 +1,62 @@
+================================================================================
+SOMERSET COUNTY - AFO ANALYSIS
+================================================================================
+
+📊 SUMMARY
+--------------------------------------------------------------------------------
+Total AFOs: 66
+Total Animals: 8,307,000
+Percentage of State Total: 14.7%
+Average Animals per AFO: 125,864
+
+🐔 ANIMAL TYPE DISTRIBUTION
+--------------------------------------------------------------------------------
+chickens_not_laying_hens      :  64 AFOs,    8,307,000 animals (100.0%)
+unknown                       :   2 AFOs,            0 animals (  0.0%)
+
+📏 FACILITY SIZE DISTRIBUTION
+--------------------------------------------------------------------------------
+<1K            :   0 facilities (  0.0%)
+1K-10K         :   0 facilities (  0.0%)
+10K-100K       :  27 facilities ( 40.9%)
+100K-1M        :  37 facilities ( 56.1%)
+>1M            :   0 facilities (  0.0%)
+
+🏭 TOP 10 LARGEST FACILITIES
+--------------------------------------------------------------------------------
+Moon Farm, LLC/ Hassan Waheed                           320,000 chickens_not_laying_hens
+Jagomar Farms LLC/Marissa Benjamin                      312,000 chickens_not_laying_hens
+Tu Do/Chelsea Farm                                      270,000 chickens_not_laying_hens
+Tiny Angels LLC                                         270,000 chickens_not_laying_hens
+Tuan Do/Tuan Farm                                       249,000 chickens_not_laying_hens
+M&C Vessey Farm, Inc/Cuckoo's Nest Farm                 240,000 chickens_not_laying_hens
+Peter and Joseph Farm Inc. c/o Peter Tran               238,400 chickens_not_laying_hens
+Howard Overholt/Honeysuckle Farm Inc.                   216,000 chickens_not_laying_hens
+QuangTran Farm                                          210,000 chickens_not_laying_hens
+Duy Pham                                                207,000 chickens_not_laying_hens
+
+🏗️ HUB ASSIGNMENTS (10-Hub Solution)
+--------------------------------------------------------------------------------
+Hub  3:  39 AFOs,    4,799,500 animals ( 57.8%)
+Hub  8:   9 AFOs,    1,280,300 animals ( 15.4%)
+Hub  1:   2 AFOs,      125,400 animals (  1.5%)
+Hub  4:   2 AFOs,       82,600 animals (  1.0%)
+
+⭐ PRIORITY ASSESSMENT
+--------------------------------------------------------------------------------
+Priority Level: HIGH
+Reason: High AFO density and large animal population
+AFO Density Score: 0.7
+Volume Score: 0.8
+Industrial Facilities: 56%
+
+💡 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Excellent candidate for pilot digester program
+• Consider 2-3 hubs within county boundaries
+• High potential for economies of scale
+• Engage with top 10 facilities for partnership
+
+================================================================================
+END OF SOMERSET COUNTY REPORT
+================================================================================

@@ -1,0 +1,51 @@
+================================================================================
+CARROLL COUNTY - AFO ANALYSIS
+================================================================================
+
+📊 SUMMARY
+--------------------------------------------------------------------------------
+Total AFOs: 6
+Total Animals: 454,105
+Percentage of State Total: 0.8%
+Average Animals per AFO: 75,684
+
+🐔 ANIMAL TYPE DISTRIBUTION
+--------------------------------------------------------------------------------
+laying_hens_dry_manure        :   2 AFOs,      451,420 animals ( 99.4%)
+dairy_cattle                  :   3 AFOs,        2,085 animals (  0.5%)
+cattle_includes_heifers       :   1 AFOs,          600 animals (  0.1%)
+
+📏 FACILITY SIZE DISTRIBUTION
+--------------------------------------------------------------------------------
+<1K            :   3 facilities ( 50.0%)
+1K-10K         :   1 facilities ( 16.7%)
+10K-100K       :   1 facilities ( 16.7%)
+100K-1M        :   1 facilities ( 16.7%)
+>1M            :   0 facilities (  0.0%)
+
+🏭 TOP 10 LARGEST FACILITIES
+--------------------------------------------------------------------------------
+Sunnyside Poultry Farms                                 398,980 laying_hens_dry_manure
+VALO BioMedia North America LLC (New Construction)       52,440 laying_hens_dry_manure
+Matthew Hoff/Coldsprings Farms                            1,230 dairy_cattle
+Panora Acres Inc./Stacy Sellers                             600 cattle_includes_heifers
+David Pyle/Cow Comfort Inn Dairy                            555 dairy_cattle
+Arbaugh's Flowering Springs Inc./Home Farm                  300 dairy_cattle
+
+⭐ PRIORITY ASSESSMENT
+--------------------------------------------------------------------------------
+Priority Level: LOW
+Reason: Lower AFO concentration
+AFO Density Score: 0.1
+Volume Score: 0.0
+Industrial Facilities: 17%
+
+💡 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Better suited for regional hub access
+• May not justify standalone county hub
+• Include in multi-county service area
+
+================================================================================
+END OF CARROLL COUNTY REPORT
+================================================================================

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "optimal_digester_sites",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "farm_name": "Christopher Wright Farm", "designation": "UNKNOWN", "animal_type": "chickens_not_laying_hens", "headcount": 77000, "status": "Issued", "city": "Barclay", "county": "Queen Anne's", "zip_code": "21607", "latitude": 39.15751854, "longitude": -75.88538703, "site_id": 0 }, "geometry": { "type": "Point", "coordinates": [ -75.88538703, 39.15751854 ] } },
+{ "type": "Feature", "properties": { "farm_name": "William R. Thomas, Jr./Three Bridges Farm", "designation": "UNKNOWN", "animal_type": "chickens_not_laying_hens", "headcount": 73000, "status": "Issued", "city": "Federalsburg", "county": "Caroline", "zip_code": "21632", "latitude": 38.73917163, "longitude": -75.81488655, "site_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.81488655, 38.73917163 ] } },
+{ "type": "Feature", "properties": { "farm_name": "Minh Vinh", "designation": "UNKNOWN", "animal_type": "chickens_not_laying_hens", "headcount": 595000, "status": "Issued", "city": "Snow Hill", "county": "Worcester", "zip_code": "21863", "latitude": 38.18886951, "longitude": -75.55089856, "site_id": 2 }, "geometry": { "type": "Point", "coordinates": [ -75.55089856, 38.18886951 ] } }
+]
+}

@@ -1,0 +1,60 @@
+================================================================================
+QUEEN ANNE'S COUNTY - AFO ANALYSIS
+================================================================================
+
+📊 SUMMARY
+--------------------------------------------------------------------------------
+Total AFOs: 37
+Total Animals: 5,353,875
+Percentage of State Total: 9.5%
+Average Animals per AFO: 144,699
+
+🐔 ANIMAL TYPE DISTRIBUTION
+--------------------------------------------------------------------------------
+chickens_not_laying_hens      :  36 AFOs,    5,353,875 animals (100.0%)
+unknown                       :   1 AFOs,            0 animals (  0.0%)
+
+📏 FACILITY SIZE DISTRIBUTION
+--------------------------------------------------------------------------------
+<1K            :   0 facilities (  0.0%)
+1K-10K         :   0 facilities (  0.0%)
+10K-100K       :  14 facilities ( 37.8%)
+100K-1M        :  22 facilities ( 59.5%)
+>1M            :   0 facilities (  0.0%)
+
+🏭 TOP 10 LARGEST FACILITIES
+--------------------------------------------------------------------------------
+Alan C. Eck Farm                                        370,500 chickens_not_laying_hens
+William Robinson/R Place Farm                           306,300 chickens_not_laying_hens
+Samuel J. Kern, Jr./Sam & Faith Kern Farm               288,000 chickens_not_laying_hens
+KC Farms LLC                                            288,000 chickens_not_laying_hens
+Michael Lesniowski                                      268,800 chickens_not_laying_hens
+Michael A. Lesniowski/H.D. Myles/Barclay Farm           268,600 chickens_not_laying_hens
+Michael A. Lesniowski/H.D. Myles Farms                  252,000 chickens_not_laying_hens
+Nazma Chishty                                           248,000 chickens_not_laying_hens
+Weaver Farms, LLC/Barclay Road Farm (Organic, New       240,975 chickens_not_laying_hens
+Tina L. Johnson/Little Chicks, LLC                      216,000 chickens_not_laying_hens
+
+🏗️ HUB ASSIGNMENTS (10-Hub Solution)
+--------------------------------------------------------------------------------
+Hub  7:  22 AFOs,    2,951,675 animals ( 55.1%)
+Hub  0:   8 AFOs,      939,800 animals ( 17.6%)
+
+⭐ PRIORITY ASSESSMENT
+--------------------------------------------------------------------------------
+Priority Level: HIGH
+Reason: High AFO density and large animal population
+AFO Density Score: 0.4
+Volume Score: 0.5
+Industrial Facilities: 59%
+
+💡 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Excellent candidate for pilot digester program
+• Consider 2-3 hubs within county boundaries
+• High potential for economies of scale
+• Engage with top 10 facilities for partnership
+
+================================================================================
+END OF QUEEN ANNE'S COUNTY REPORT
+================================================================================

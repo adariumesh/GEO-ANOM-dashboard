@@ -1,0 +1,54 @@
+================================================================================
+TALBOT COUNTY - AFO ANALYSIS
+================================================================================
+
+📊 SUMMARY
+--------------------------------------------------------------------------------
+Total AFOs: 6
+Total Animals: 486,700
+Percentage of State Total: 0.9%
+Average Animals per AFO: 81,117
+
+🐔 ANIMAL TYPE DISTRIBUTION
+--------------------------------------------------------------------------------
+chickens_not_laying_hens      :   5 AFOs,      486,700 animals (100.0%)
+unknown                       :   1 AFOs,            0 animals (  0.0%)
+
+📏 FACILITY SIZE DISTRIBUTION
+--------------------------------------------------------------------------------
+<1K            :   0 facilities (  0.0%)
+1K-10K         :   0 facilities (  0.0%)
+10K-100K       :   4 facilities ( 66.7%)
+100K-1M        :   1 facilities ( 16.7%)
+>1M            :   0 facilities (  0.0%)
+
+🏭 TOP 10 LARGEST FACILITIES
+--------------------------------------------------------------------------------
+Moore Farms, Inc. c/o William A. Moore Jr.              179,500 chickens_not_laying_hens
+Jadwins Farm, LLC/ John F. Williams III                  92,000 chickens_not_laying_hens
+Paul Aaron Hutchison Sr./Home Farm                       86,200 chickens_not_laying_hens
+James S. Harrison/Harrison's Haven                       82,000 chickens_not_laying_hens
+Aubrey Storm/First Frost Farm                            47,000 chickens_not_laying_hens
+Jeffrey Coursey                                               0 unknown
+
+🏗️ HUB ASSIGNMENTS (10-Hub Solution)
+--------------------------------------------------------------------------------
+Hub  0:   6 AFOs,      486,700 animals (100.0%)
+
+⭐ PRIORITY ASSESSMENT
+--------------------------------------------------------------------------------
+Priority Level: LOW
+Reason: Lower AFO concentration
+AFO Density Score: 0.1
+Volume Score: 0.0
+Industrial Facilities: 17%
+
+💡 RECOMMENDATIONS
+--------------------------------------------------------------------------------
+• Better suited for regional hub access
+• May not justify standalone county hub
+• Include in multi-county service area
+
+================================================================================
+END OF TALBOT COUNTY REPORT
+================================================================================
